@@ -63,3 +63,9 @@ fastlane/Preview.html
 fastlane/screenshots
 fastlane/test_output
 fastlane/readme.md
+sensitive_data.txt
+
+#relative to google cloud vision api key
+strings.xml
+google_maps_api.xml
+AndroidManifest.xml
