@@ -1,0 +1,16 @@
+<resources>
+    <string name="google_maps_API_key">AIzaSyC1Ptx1JeOiTABVVnuMX7cW7MAvK136tT4</string>
+    <string name="app_name">PlateReader</string>
+    <string name="title_activity_maps">Map</string>
+    <string-array name="radius_size">
+        <item> 0.5Km </item>
+        <item> 1Km </item>
+        <item> 2.5Km </item>
+        <item> 5Km </item>
+        <item> 10Km </item>
+    </string-array>
+    <string-array name="OCR_API">
+        <item> Tesseract OCR </item>
+        <item> Google Cloud Vision API </item>
+    </string-array>
+</resources>

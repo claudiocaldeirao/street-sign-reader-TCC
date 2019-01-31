@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="#1e1e1e"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    tools:context="com.claudiocaldeirao.platereader.activities.MainActivity">
+
+<RelativeLayout
+    android:id="@+id/relative_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <Spinner
+        android:id="@+id/ocr_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    </Spinner>
+
+    <ImageView
+        android:id="@+id/image_view"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerInside" />
+</RelativeLayout>
+
+
+<LinearLayout
+    android:id="@+id/buttonPanel"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    app:layout_constraintBottom_toBottomOf="parent">
+
+    <Button
+        android:id="@+id/gallery_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="#1e1e1e"
+        android:drawableBottom="@drawable/w_gallery_icon" />
+
+    <Button
+        android:id="@+id/photo_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="#1e1e1e"
+        android:drawableBottom="@drawable/w_photo_icon" />
+
+    <Button
+        android:id="@+id/crop_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="#1e1e1e"
+        android:drawableBottom="@drawable/w_crop_icon" />
+
+    <Button
+        android:id="@+id/bright_cont_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="#1e1e1e"
+        android:drawableBottom="@drawable/w_brith_cont_icon" />
+
+    <Button
+        android:id="@+id/perscorrect_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="#1e1e1e"
+        android:drawableBottom="@drawable/perspective_correction_icon_w" />
+
+    <Button
+        android:id="@+id/recognize_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="#1e1e1e"
+        android:drawableBottom="@drawable/w_finish_icon" />
+</LinearLayout>
+</android.support.constraint.ConstraintLayout>
